@@ -14,6 +14,7 @@
 		A7E126DA231A481B0095A3CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E126D8231A481B0095A3CB /* LaunchScreen.storyboard */; };
 		A7E126E5231A481B0095A3CB /* tableSegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E126E4231A481B0095A3CB /* tableSegueTests.swift */; };
 		A7E126F0231A481B0095A3CB /* tableSegueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E126EF231A481B0095A3CB /* tableSegueUITests.swift */; };
+		A7E126FE231A4A3A0095A3CB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E126FD231A4A3A0095A3CB /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A7E126EB231A481B0095A3CB /* tableSegueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableSegueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7E126EF231A481B0095A3CB /* tableSegueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableSegueUITests.swift; sourceTree = "<group>"; };
 		A7E126F1231A481B0095A3CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7E126FD231A4A3A0095A3CB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				A7E126CF231A48180095A3CB /* AppDelegate.swift */,
+				A7E126FD231A4A3A0095A3CB /* SecondViewController.swift */,
 				A7E126D1231A48180095A3CB /* ViewController.swift */,
 				A7E126D3231A48180095A3CB /* Main.storyboard */,
 				A7E126D6231A481B0095A3CB /* Assets.xcassets */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7E126FE231A4A3A0095A3CB /* SecondViewController.swift in Sources */,
 				A7E126D2231A48180095A3CB /* ViewController.swift in Sources */,
 				A7E126D0231A48180095A3CB /* AppDelegate.swift in Sources */,
 			);
